@@ -28,9 +28,13 @@ converter.json2csv(targetFiles, (err, csv) => {
     const rows = csv.split('\n').map(row => row.split(','))
     const keyCount = rows[0].length
     let data = ''
-    for (let index = 0; index < keyCount; index++) {
-        for (const row of rows) {
-            data += row[index] + ','
+    for (let keyIndex = 0; keyIndex < keyCount; keyIndex++) {
+        for (const [rowIndex, row] of rows.entries()) {
+            data += row[keyIndex]
+
+            if (rowIndex !== rows.length - 1) {
+                data += ','
+            }
         }
 
         data += '\n'
