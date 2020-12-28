@@ -1,0 +1,14 @@
+{
+  "name": "json-i18n",
+  "version": "1.0.0",
+  "description": "Convert i18next json files to csv.",
+  "main": "index.js",
+  "scripts": {
+    "tocsv": "node convert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-2-csv": "^3.10.0"
+  }
+}
