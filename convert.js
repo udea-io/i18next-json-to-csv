@@ -12,6 +12,18 @@ function getJson(path) {
     return JSON.parse(fs.readFileSync(path).toString())
 }
 
+function parseContent(content) {
+    if (content.startsWith('"')) {
+        content = content.slice(1)
+    }
+
+    if (content.endsWith('"')) {
+        content = content.slice(0, -1)
+    }
+
+    return content
+}
+
 if (process.argv.length < 4) {
     return console.log('Format: node convert.js [SOURCE_FOLDER_PATH] [OUT_DIR_PATH]')
 }
@@ -30,7 +42,7 @@ converter.json2csv(targetFiles, (err, csv) => {
     let data = ''
     for (let keyIndex = 0; keyIndex < keyCount; keyIndex++) {
         for (const [rowIndex, row] of rows.entries()) {
-            data += row[keyIndex]
+            data += parseContent(row[keyIndex])
 
             if (rowIndex !== rows.length - 1) {
                 data += ','

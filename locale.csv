@@ -96,38 +96,38 @@ job.button.see_full_details,See Full Details,See Full Details
 job.button.auto_pair_new_job,Auto pair new job data,Auto pair new job data
 job.button.create_new_job,Create New Job,Create New Job
 job.update_modal.title,Job Post is about to be unpublished,Job Post is about to be unpublished
-job.update_modal.content,"Any update to the job post will unpublish the job. Don't worry,"Any update to the job post will unpublish the job. Don't worry
-job.update_modal.ok, the job post will be republished after Oakary's approval and the system will notify the candidates.", the job post will be republished after Oakary's approval and the system will notify the candidates."
-job.pubish_modal.title,"Yes,"Yes
-job.pubish_modal.content, Updated the job", Updated the job"
+job.update_modal.content,Any update to the job post will unpublish the job. Don't worry,Any update to the job post will unpublish the job. Don't worry
+job.update_modal.ok, the job post will be republished after Oakary's approval and the system will notify the candidates., the job post will be republished after Oakary's approval and the system will notify the candidates.
+job.pubish_modal.title,Yes,Yes
+job.pubish_modal.content, Updated the job, Updated the job
 job.pubish_modal.ok,Publish the Job Post,Publish the Job Post
 job.unpublish_modal.title,We will notify the job post to all the matching candidates in the system once the job is published. The candidates will able to see and start applying for the job.,We will notify the job post to all the matching candidates in the system once the job is published. The candidates will able to see and start applying for the job.
-job.unpublish_modal.content,"Yes,"Yes
-job.unpublish_modal.ok, publish the job", publish the job"
+job.unpublish_modal.content,Yes,Yes
+job.unpublish_modal.ok, publish the job, publish the job
 job.archive_modal.title,Unpublish the Job Post,Unpublish the Job Post
-job.archive_modal.content,"You will not receive new candidates if the job is unpublished,"You will not receive new candidates if the job is unpublished
-job.archive_modal.ok, but the candidates already in the hiring pipeline will remain.", but the candidates already in the hiring pipeline will remain."
-unsubscribe.text.notifyJobInterviewProgress,"Yes,"Yes
-unsubscribe.text.notifyNewInAppMessage, unpublished the job", unpublished the job"
+job.archive_modal.content,You will not receive new candidates if the job is unpublished,You will not receive new candidates if the job is unpublished
+job.archive_modal.ok, but the candidates already in the hiring pipeline will remain., but the candidates already in the hiring pipeline will remain.
+unsubscribe.text.notifyJobInterviewProgress,Yes,Yes
+unsubscribe.text.notifyNewInAppMessage, unpublished the job, unpublished the job
 unsubscribe.text.notifyNewNotification,Archived the Job Post,Archived the Job Post
-unsubscribe.text.notifyJobRecommend,"You will not receive new candidates if the job is unpublished,"You will not receive new candidates if the job is unpublished
-unsubscribe.text.action_success, but the candidates already in the hiring pipeline will remain.", but the candidates already in the hiring pipeline will remain."
-unsubscribe.text.invalid_type,"Yes,"Yes
-unsubscribe.text.invalid_token, Archived the job", Archived the job"
+unsubscribe.text.notifyJobRecommend,You will not receive new candidates if the job is unpublished,You will not receive new candidates if the job is unpublished
+unsubscribe.text.action_success, but the candidates already in the hiring pipeline will remain., but the candidates already in the hiring pipeline will remain.
+unsubscribe.text.invalid_type,Yes,Yes
+unsubscribe.text.invalid_token, Archived the job, Archived the job
 unsubscribe.text.success,Job Interview Progress,Job Interview Progress
 unsubscribe.text.title,New In App Message,New In App Message
 unsubscribe.button.unsubscribe,New Event Notification,New Event Notification
 unsubscribe.button.back,Job Recommendation,Job Recommendation
 hiring.decision.text.close_success,Action success,Action success
-hiring.decision.text.rate,"The unsubscribe link is invalid,"The unsubscribe link is invalid
+hiring.decision.text.rate,The unsubscribe link is invalid,The unsubscribe link is invalid
 hiring.decision.text.reason, likely the token has expired. Please re-click the unsubscribe link at the bottom of the email again, likely the token has expired. Please re-click the unsubscribe link at the bottom of the email again
-hiring.decision.text.review, or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications.", or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications."
-hiring.decision.text.decision,"The unsubscribe link/token has expired. Please re-click the unsubscribe link at the bottom of the email again,"The unsubscribe link/token has expired. Please re-click the unsubscribe link at the bottom of the email again
-hiring.decision.text.final_decision, or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications.", or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications."
-hiring.decision.button.finalize_decision,"Unsubscribe %{mailType} successfully. If you want to manage the email notification,"Unsubscribe %{mailType} successfully. If you want to manage the email notification
-hiring.decision.button.close, log into your Oakary account and navigate to the profile page to unsubscribe the specific email notifications.", log into your Oakary account and navigate to the profile page to unsubscribe the specific email notifications."
-hiring.decision.button.cancel,"Are you sure you want to unsubscribe the email notification,"Are you sure you want to unsubscribe the email notification
-toolbar.filter.text,“%{subjectType}”?",“%{subjectType}”?"
+hiring.decision.text.review, or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications., or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications.
+hiring.decision.text.decision,The unsubscribe link/token has expired. Please re-click the unsubscribe link at the bottom of the email again,The unsubscribe link/token has expired. Please re-click the unsubscribe link at the bottom of the email again
+hiring.decision.text.final_decision, or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications., or log into your Oakary account and navigate to the profile page to unsubscribe the specific mail notifications.
+hiring.decision.button.finalize_decision,Unsubscribe %{mailType} successfully. If you want to manage the email notification,Unsubscribe %{mailType} successfully. If you want to manage the email notification
+hiring.decision.button.close, log into your Oakary account and navigate to the profile page to unsubscribe the specific email notifications., log into your Oakary account and navigate to the profile page to unsubscribe the specific email notifications.
+hiring.decision.button.cancel,Are you sure you want to unsubscribe the email notification,Are you sure you want to unsubscribe the email notification
+toolbar.filter.text,“%{subjectType}”?,“%{subjectType}”?
 toolbar.filter.button.search,UNSUBSCRIBE,UNSUBSCRIBE
 toolbar.candidate.pass_all,BACK TO LOG IN,BACK TO LOG IN
 toolbar.candidate.add_new_matchings,closed success,closed success
@@ -150,19 +150,19 @@ forgot_password.text.contact,Your profile has created successfully. Verify your 
 forgot_password.button.back_to_sign_in,Congratulations!,Congratulations!
 forgot_password.button.get_link,Your email is confirmed and the account is ready to be used.,Your email is confirmed and the account is ready to be used.
 reset_password.text.reset_your_password,Oops!,Oops!
-reset_password.text.password,"The email address you're verifying has already been verified,"The email address you're verifying has already been verified
+reset_password.text.password,The email address you're verifying has already been verified,The email address you're verifying has already been verified
 reset_password.text.enter_password, or the confirm token is not valid. Please asking for confirmation during console again, or the confirm token is not valid. Please asking for confirmation during console again
-reset_password.text.confirm_password, or contact support@oakary.com.", or contact support@oakary.com."
-reset_password.button.back_to_sign_in,"For further questions,"For further questions
-reset_password.button.get_link, please contact", please contact"
+reset_password.text.confirm_password, or contact support@oakary.com., or contact support@oakary.com.
+reset_password.button.back_to_sign_in,For further questions,For further questions
+reset_password.button.get_link, please contact, please contact
 setting.notifications.email_notification,Forgot Password,Forgot Password
 setting.notifications.new_candidate_signed_up,Login,Login
 setting.notifications.new_application_received,Login as HR,Login as HR
 setting.notifications.stage_update,Login as Oakary,Login as Oakary
 setting.notifications.job_update,Login as Candidate,Login as Candidate
 setting.notifications.new_hired,Enter your Email to get the reset link,Enter your Email to get the reset link
-setting.notifications.new_message_received,"For further questions,"For further questions
-setting.text.name, please contact", please contact"
+setting.notifications.new_message_received,For further questions,For further questions
+setting.text.name, please contact, please contact
 setting.text.description,Back to Sign In,Back to Sign In
 setting.text.subject,Get the link,Get the link
 setting.text.content,Reset your password,Reset your password
@@ -183,8 +183,8 @@ school.account_form.email,Description,Description
 school.account_form.email_confirmation,Subject,Subject
 school.account_form.phone,Content,Content
 school.account_form.skype,Title,Title
-school.account_form.wechat,"Server is busy,"Server is busy
-school.account_form.password, Are you sure to retry?", Are you sure to retry?"
+school.account_form.wechat,Server is busy,Server is busy
+school.account_form.password, Are you sure to retry?, Are you sure to retry?
 school.account_form.password_confirmation,Insert Field,Insert Field
 school.account_form.role_level,Create New Template,Create New Template
 school.account_form.member,Create New Stage,Create New Stage
@@ -240,18 +240,18 @@ match.fuzzy_match,Select HR or enter email address.,Select HR or enter email add
 match.mismatch,Introduction Video,Introduction Video
 candidate.text.candidate,Confirmation,Confirmation
 candidate.text.resume,Are you sure you want to delete this account?,Are you sure you want to delete this account?
-candidate.text.message,"Sure,"Sure
-candidate.text.overview, DELETE THIS ACCOUNT", DELETE THIS ACCOUNT"
+candidate.text.message,Sure,Sure
+candidate.text.overview, DELETE THIS ACCOUNT, DELETE THIS ACCOUNT
 candidate.text.referral,This account seems VALID but you can still delete it if needed.,This account seems VALID but you can still delete it if needed.
 candidate.text.description,This account is INVALID.,This account is INVALID.
-candidate.text.applied_on,"Giving Email is belongs to a valid user,"Giving Email is belongs to a valid user
-candidate.text.last_update_on, so the system won't perform the delete action.", so the system won't perform the delete action."
+candidate.text.applied_on,Giving Email is belongs to a valid user,Giving Email is belongs to a valid user
+candidate.text.last_update_on, so the system won't perform the delete action., so the system won't perform the delete action.
 candidate.text.closed_date,Email,Email
 candidate.text.activation_status,Result,Result
 candidate.text.basic_info,Account Maintenance,Account Maintenance
 candidate.text.birthday,Background Pair Status,Background Pair Status
-candidate.text.timezone,"Result - If pairing is in processing,"Result - If pairing is in processing
-candidate.text.accent, this page will auto fetch newest status every 10 seconds.", this page will auto fetch newest status every 10 seconds."
+candidate.text.timezone,Result - If pairing is in processing,Result - If pairing is in processing
+candidate.text.accent, this page will auto fetch newest status every 10 seconds., this page will auto fetch newest status every 10 seconds.
 candidate.text.nationality,Check Status,Check Status
 candidate.text.residence,Force Re-pairing,Force Re-pairing
 candidate.text.role,Stop Pairing,Stop Pairing
