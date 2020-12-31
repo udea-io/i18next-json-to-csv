@@ -25,7 +25,7 @@ function parseContent(content) {
 }
 
 if (process.argv.length < 4) {
-    return console.log('Format: node convert.js [SOURCE_FOLDER_PATH] [OUT_DIR_PATH]')
+    return console.log('Format: node locale2csv.js [SOURCE_FOLDER_PATH] [OUT_DIR_PATH]')
 }
 
 const sourcePath = process.argv[2]
@@ -49,7 +49,9 @@ converter.json2csv(targetFiles, (err, csv) => {
             }
         }
 
-        data += '\n'
+        if (keyIndex !== keyCount - 1) {
+            data += '\n'
+        }
     }
 
     fs.writeFileSync(outputPath, data)

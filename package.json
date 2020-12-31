@@ -4,7 +4,8 @@
   "description": "Convert i18next json files to csv.",
   "main": "index.js",
   "scripts": {
-    "tocsv": "node convert.js"
+    "tocsv": "node locale2csv.js",
+    "tojson": "node csv2json.js"
   },
   "author": "",
   "license": "ISC",
