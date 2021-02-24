@@ -37,7 +37,8 @@ converter.json2csv(targetFiles, (err, csv) => {
         return console.log(err)
     }
     
-    const rows = csv.split('\n').map(row => row.split(','))
+    const rows = csv.split('\n').map(row => row.split('`'))
+
     const keyCount = rows[0].length
     let data = ''
     for (let keyIndex = 0; keyIndex < keyCount; keyIndex++) {
@@ -55,4 +56,11 @@ converter.json2csv(targetFiles, (err, csv) => {
     }
 
     fs.writeFileSync(outputPath, data)
+}, {
+    checkSchemaDifferences: true,
+    delimiter: {
+        field: '`',
+        wrap: '"',
+        eol: '\n'
+    }
 })
